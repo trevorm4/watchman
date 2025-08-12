@@ -258,6 +258,9 @@ class AIOClient:
         self._check_error(res)
         return res
 
+
+
+
     async def pop_log(self):
         """Get one log from the log queue."""
         self._check_receive_loop()
